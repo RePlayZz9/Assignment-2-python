@@ -7,7 +7,7 @@ for plate in plates:
     if len(plate) != 6:
         print("No")
         continue
-    # pattern: L D D D L L
+
     if (plate[0] in valid_letters and
         plate[1].isdigit() and
         plate[2].isdigit() and
